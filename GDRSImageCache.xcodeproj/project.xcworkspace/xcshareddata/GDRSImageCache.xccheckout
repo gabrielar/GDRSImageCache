@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>4BFFC13C-A59C-46A3-ADD3-07068315743B</string>
+	<key>IDESourceControlProjectName</key>
+	<string>GDRSImageCache</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>1C4E1A5C-2F45-49E7-BBA8-AD29ED5D211D</key>
+		<string>ssh://github.com/gabrielar/GDRSImageCache.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>GDRSImageCache.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>1C4E1A5C-2F45-49E7-BBA8-AD29ED5D211D</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/gabrielar/GDRSImageCache.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>1C4E1A5C-2F45-49E7-BBA8-AD29ED5D211D</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>1C4E1A5C-2F45-49E7-BBA8-AD29ED5D211D</string>
+			<key>IDESourceControlWCCName</key>
+			<string>GDRSImageCache</string>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -1,0 +1,442 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7811D30A19002AFD005D7A39 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7811D30919002AFD005D7A39 /* Foundation.framework */; };
+		7811D31819002AFD005D7A39 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7811D31719002AFD005D7A39 /* XCTest.framework */; };
+		7811D31919002AFD005D7A39 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7811D30919002AFD005D7A39 /* Foundation.framework */; };
+		7811D31B19002AFD005D7A39 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7811D31A19002AFD005D7A39 /* UIKit.framework */; };
+		7811D31E19002AFD005D7A39 /* libGDRSImageCache.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7811D30619002AFD005D7A39 /* libGDRSImageCache.a */; };
+		7811D32419002AFD005D7A39 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7811D32219002AFD005D7A39 /* InfoPlist.strings */; };
+		7811D32619002AFD005D7A39 /* GDRSImageCacheTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7811D32519002AFD005D7A39 /* GDRSImageCacheTests.m */; };
+		789AA48B19003185005D34E6 /* GDRSImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 789AA48819003185005D34E6 /* GDRSImageCache.m */; };
+		789AA48C19003185005D34E6 /* UIImage+GDRSResizing.m in Sources */ = {isa = PBXBuildFile; fileRef = 789AA48A19003185005D34E6 /* UIImage+GDRSResizing.m */; };
+		789AA48F190033F2005D34E6 /* TestPicture.png in Resources */ = {isa = PBXBuildFile; fileRef = 789AA48E190033F2005D34E6 /* TestPicture.png */; };
+		789AA49119003489005D34E6 /* DefaultTestPicture.png in Resources */ = {isa = PBXBuildFile; fileRef = 789AA49019003489005D34E6 /* DefaultTestPicture.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7811D31C19002AFD005D7A39 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7811D2FE19002AFD005D7A39 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7811D30519002AFD005D7A39;
+			remoteInfo = GDRSImageCache;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		7811D30419002AFD005D7A39 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		7811D30619002AFD005D7A39 /* libGDRSImageCache.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libGDRSImageCache.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		7811D30919002AFD005D7A39 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7811D30D19002AFD005D7A39 /* GDRSImageCache-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GDRSImageCache-Prefix.pch"; sourceTree = "<group>"; };
+		7811D31619002AFD005D7A39 /* GDRSImageCacheTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GDRSImageCacheTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7811D31719002AFD005D7A39 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		7811D31A19002AFD005D7A39 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		7811D32119002AFD005D7A39 /* GDRSImageCacheTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GDRSImageCacheTests-Info.plist"; sourceTree = "<group>"; };
+		7811D32319002AFD005D7A39 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7811D32519002AFD005D7A39 /* GDRSImageCacheTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GDRSImageCacheTests.m; sourceTree = "<group>"; };
+		789AA48719003185005D34E6 /* GDRSImageCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDRSImageCache.h; sourceTree = "<group>"; };
+		789AA48819003185005D34E6 /* GDRSImageCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDRSImageCache.m; sourceTree = "<group>"; };
+		789AA48919003185005D34E6 /* UIImage+GDRSResizing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+GDRSResizing.h"; sourceTree = "<group>"; };
+		789AA48A19003185005D34E6 /* UIImage+GDRSResizing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+GDRSResizing.m"; sourceTree = "<group>"; };
+		789AA48E190033F2005D34E6 /* TestPicture.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TestPicture.png; sourceTree = "<group>"; };
+		789AA49019003489005D34E6 /* DefaultTestPicture.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DefaultTestPicture.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7811D30319002AFD005D7A39 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7811D30A19002AFD005D7A39 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7811D31319002AFD005D7A39 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7811D31E19002AFD005D7A39 /* libGDRSImageCache.a in Frameworks */,
+				7811D31819002AFD005D7A39 /* XCTest.framework in Frameworks */,
+				7811D31B19002AFD005D7A39 /* UIKit.framework in Frameworks */,
+				7811D31919002AFD005D7A39 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7811D2FD19002AFD005D7A39 = {
+			isa = PBXGroup;
+			children = (
+				7811D30B19002AFD005D7A39 /* GDRSImageCache */,
+				7811D31F19002AFD005D7A39 /* GDRSImageCacheTests */,
+				7811D30819002AFD005D7A39 /* Frameworks */,
+				7811D30719002AFD005D7A39 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7811D30719002AFD005D7A39 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7811D30619002AFD005D7A39 /* libGDRSImageCache.a */,
+				7811D31619002AFD005D7A39 /* GDRSImageCacheTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7811D30819002AFD005D7A39 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7811D30919002AFD005D7A39 /* Foundation.framework */,
+				7811D31719002AFD005D7A39 /* XCTest.framework */,
+				7811D31A19002AFD005D7A39 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7811D30B19002AFD005D7A39 /* GDRSImageCache */ = {
+			isa = PBXGroup;
+			children = (
+				789AA48719003185005D34E6 /* GDRSImageCache.h */,
+				789AA48819003185005D34E6 /* GDRSImageCache.m */,
+				789AA48919003185005D34E6 /* UIImage+GDRSResizing.h */,
+				789AA48A19003185005D34E6 /* UIImage+GDRSResizing.m */,
+				7811D30C19002AFD005D7A39 /* Supporting Files */,
+			);
+			path = GDRSImageCache;
+			sourceTree = "<group>";
+		};
+		7811D30C19002AFD005D7A39 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7811D30D19002AFD005D7A39 /* GDRSImageCache-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7811D31F19002AFD005D7A39 /* GDRSImageCacheTests */ = {
+			isa = PBXGroup;
+			children = (
+				789AA48D190033BA005D34E6 /* Resources */,
+				7811D32519002AFD005D7A39 /* GDRSImageCacheTests.m */,
+				7811D32019002AFD005D7A39 /* Supporting Files */,
+			);
+			path = GDRSImageCacheTests;
+			sourceTree = "<group>";
+		};
+		7811D32019002AFD005D7A39 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7811D32119002AFD005D7A39 /* GDRSImageCacheTests-Info.plist */,
+				7811D32219002AFD005D7A39 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		789AA48D190033BA005D34E6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				789AA49019003489005D34E6 /* DefaultTestPicture.png */,
+				789AA48E190033F2005D34E6 /* TestPicture.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7811D30519002AFD005D7A39 /* GDRSImageCache */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7811D32919002AFD005D7A39 /* Build configuration list for PBXNativeTarget "GDRSImageCache" */;
+			buildPhases = (
+				7811D30219002AFD005D7A39 /* Sources */,
+				7811D30319002AFD005D7A39 /* Frameworks */,
+				7811D30419002AFD005D7A39 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GDRSImageCache;
+			productName = GDRSImageCache;
+			productReference = 7811D30619002AFD005D7A39 /* libGDRSImageCache.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		7811D31519002AFD005D7A39 /* GDRSImageCacheTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7811D32C19002AFD005D7A39 /* Build configuration list for PBXNativeTarget "GDRSImageCacheTests" */;
+			buildPhases = (
+				7811D31219002AFD005D7A39 /* Sources */,
+				7811D31319002AFD005D7A39 /* Frameworks */,
+				7811D31419002AFD005D7A39 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7811D31D19002AFD005D7A39 /* PBXTargetDependency */,
+			);
+			name = GDRSImageCacheTests;
+			productName = GDRSImageCacheTests;
+			productReference = 7811D31619002AFD005D7A39 /* GDRSImageCacheTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7811D2FE19002AFD005D7A39 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "GADRS Consulting Ltd";
+			};
+			buildConfigurationList = 7811D30119002AFD005D7A39 /* Build configuration list for PBXProject "GDRSImageCache" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7811D2FD19002AFD005D7A39;
+			productRefGroup = 7811D30719002AFD005D7A39 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7811D30519002AFD005D7A39 /* GDRSImageCache */,
+				7811D31519002AFD005D7A39 /* GDRSImageCacheTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7811D31419002AFD005D7A39 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				789AA48F190033F2005D34E6 /* TestPicture.png in Resources */,
+				7811D32419002AFD005D7A39 /* InfoPlist.strings in Resources */,
+				789AA49119003489005D34E6 /* DefaultTestPicture.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7811D30219002AFD005D7A39 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				789AA48C19003185005D34E6 /* UIImage+GDRSResizing.m in Sources */,
+				789AA48B19003185005D34E6 /* GDRSImageCache.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7811D31219002AFD005D7A39 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7811D32619002AFD005D7A39 /* GDRSImageCacheTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7811D31D19002AFD005D7A39 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7811D30519002AFD005D7A39 /* GDRSImageCache */;
+			targetProxy = 7811D31C19002AFD005D7A39 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7811D32219002AFD005D7A39 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7811D32319002AFD005D7A39 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7811D32719002AFD005D7A39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7811D32819002AFD005D7A39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7811D32A19002AFD005D7A39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/GDRSImageCache.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GDRSImageCache/GDRSImageCache-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		7811D32B19002AFD005D7A39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/GDRSImageCache.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GDRSImageCache/GDRSImageCache-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		7811D32D19002AFD005D7A39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GDRSImageCache/GDRSImageCache-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "GDRSImageCacheTests/GDRSImageCacheTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		7811D32E19002AFD005D7A39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GDRSImageCache/GDRSImageCache-Prefix.pch";
+				INFOPLIST_FILE = "GDRSImageCacheTests/GDRSImageCacheTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7811D30119002AFD005D7A39 /* Build configuration list for PBXProject "GDRSImageCache" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7811D32719002AFD005D7A39 /* Debug */,
+				7811D32819002AFD005D7A39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7811D32919002AFD005D7A39 /* Build configuration list for PBXNativeTarget "GDRSImageCache" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7811D32A19002AFD005D7A39 /* Debug */,
+				7811D32B19002AFD005D7A39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7811D32C19002AFD005D7A39 /* Build configuration list for PBXNativeTarget "GDRSImageCacheTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7811D32D19002AFD005D7A39 /* Debug */,
+				7811D32E19002AFD005D7A39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7811D2FE19002AFD005D7A39 /* Project object */;
+}
