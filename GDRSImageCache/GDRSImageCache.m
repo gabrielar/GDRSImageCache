@@ -10,13 +10,8 @@
 #import "UIImage+GDRSResizing.h"
 
 @interface GDRSImageCache()
-
-@property (nonatomic) BOOL shouldResizeImage;
-@property (nonatomic) CGSize cachedImageSize;
-@property (nonatomic) CGFloat cachedImageCornerRadius;
-
+@property (nonatomic, copy) GDRSImageCacheImageFilter imageFilter;
 @property (nonatomic) NSCache *imageCache;
-
 @end
 
 
@@ -32,13 +27,11 @@
     return self;
 }
 
-- (instancetype)initWithCachedImageSize:(CGSize)cachedImageSize corenerRadius:(CGFloat)cornerRadius
+- (instancetype)initWithCachedImageFilter:(GDRSImageCacheImageFilter)imageFilter
 {
     self = [self init];
     if (self) {
-        self.shouldResizeImage = YES;
-        self.cachedImageSize = cachedImageSize;
-        self.cachedImageCornerRadius = cornerRadius;
+        self.imageFilter = imageFilter;
     }
     return self;
 }
@@ -92,9 +85,10 @@
         image = [UIImage imageWithData:imageData];
     }
     
-    if (self.shouldResizeImage) {
-        image = [image gadrs_resizedImageToFitSize:self.cachedImageSize cornerRadius:self.cachedImageCornerRadius];
+    if (self.imageFilter) {
+        image = self.imageFilter(image);
     }
+    
     return image;
 }
 

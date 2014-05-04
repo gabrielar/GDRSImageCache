@@ -18,10 +18,32 @@
 		789AA48C19003185005D34E6 /* UIImage+GDRSResizing.m in Sources */ = {isa = PBXBuildFile; fileRef = 789AA48A19003185005D34E6 /* UIImage+GDRSResizing.m */; };
 		789AA48F190033F2005D34E6 /* TestPicture.png in Resources */ = {isa = PBXBuildFile; fileRef = 789AA48E190033F2005D34E6 /* TestPicture.png */; };
 		789AA49119003489005D34E6 /* DefaultTestPicture.png in Resources */ = {isa = PBXBuildFile; fileRef = 789AA49019003489005D34E6 /* DefaultTestPicture.png */; };
+		789CE6C31916F95000F5CF0B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7811D30919002AFD005D7A39 /* Foundation.framework */; };
+		789CE6C41916F95000F5CF0B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7833E96D1916F81F00D41F29 /* CoreGraphics.framework */; };
+		789CE6C51916F95000F5CF0B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7811D31A19002AFD005D7A39 /* UIKit.framework */; };
+		789CE6CB1916F95000F5CF0B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 789CE6C91916F95000F5CF0B /* InfoPlist.strings */; };
+		789CE6CD1916F95000F5CF0B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 789CE6CC1916F95000F5CF0B /* main.m */; };
+		789CE6D11916F95000F5CF0B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 789CE6D01916F95000F5CF0B /* AppDelegate.m */; };
+		789CE6D41916F95000F5CF0B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 789CE6D21916F95000F5CF0B /* Main.storyboard */; };
+		789CE6D71916F95000F5CF0B /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 789CE6D61916F95000F5CF0B /* MasterViewController.m */; };
+		789CE6DA1916F95000F5CF0B /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 789CE6D91916F95000F5CF0B /* DetailViewController.m */; };
+		789CE6DC1916F95000F5CF0B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 789CE6DB1916F95000F5CF0B /* Images.xcassets */; };
+		789CE6F71916FC1700F5CF0B /* AspectFitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 789CE6F61916FC1700F5CF0B /* AspectFitViewController.m */; };
+		789CE6FA1916FC3300F5CF0B /* AspectFillViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 789CE6F91916FC3300F5CF0B /* AspectFillViewController.m */; };
+		789CE6FB1916FD0700F5CF0B /* libGDRSImageCache.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7811D30619002AFD005D7A39 /* libGDRSImageCache.a */; };
+		789CE7001917073700F5CF0B /* CacheFilterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 789CE6FF1917073700F5CF0B /* CacheFilterViewController.m */; };
+		789CE7021917095700F5CF0B /* VisualTestImageCache.png in Resources */ = {isa = PBXBuildFile; fileRef = 789CE7011917095700F5CF0B /* VisualTestImageCache.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		7811D31C19002AFD005D7A39 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7811D2FE19002AFD005D7A39 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7811D30519002AFD005D7A39;
+			remoteInfo = GDRSImageCache;
+		};
+		789CE6FC1916FD0E00F5CF0B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 7811D2FE19002AFD005D7A39 /* Project object */;
 			proxyType = 1;
@@ -52,12 +74,33 @@
 		7811D32119002AFD005D7A39 /* GDRSImageCacheTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GDRSImageCacheTests-Info.plist"; sourceTree = "<group>"; };
 		7811D32319002AFD005D7A39 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7811D32519002AFD005D7A39 /* GDRSImageCacheTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GDRSImageCacheTests.m; sourceTree = "<group>"; };
+		7833E96D1916F81F00D41F29 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		789AA48719003185005D34E6 /* GDRSImageCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDRSImageCache.h; sourceTree = "<group>"; };
 		789AA48819003185005D34E6 /* GDRSImageCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDRSImageCache.m; sourceTree = "<group>"; };
 		789AA48919003185005D34E6 /* UIImage+GDRSResizing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+GDRSResizing.h"; sourceTree = "<group>"; };
 		789AA48A19003185005D34E6 /* UIImage+GDRSResizing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+GDRSResizing.m"; sourceTree = "<group>"; };
 		789AA48E190033F2005D34E6 /* TestPicture.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TestPicture.png; sourceTree = "<group>"; };
 		789AA49019003489005D34E6 /* DefaultTestPicture.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DefaultTestPicture.png; sourceTree = "<group>"; };
+		789CE6C21916F95000F5CF0B /* GADRSImageCacheVisualTests.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GADRSImageCacheVisualTests.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		789CE6C81916F95000F5CF0B /* GADRSImageCacheVisualTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GADRSImageCacheVisualTests-Info.plist"; sourceTree = "<group>"; };
+		789CE6CA1916F95000F5CF0B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		789CE6CC1916F95000F5CF0B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		789CE6CE1916F95000F5CF0B /* GADRSImageCacheVisualTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GADRSImageCacheVisualTests-Prefix.pch"; sourceTree = "<group>"; };
+		789CE6CF1916F95000F5CF0B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		789CE6D01916F95000F5CF0B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		789CE6D31916F95000F5CF0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		789CE6D51916F95000F5CF0B /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		789CE6D61916F95000F5CF0B /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		789CE6D81916F95000F5CF0B /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		789CE6D91916F95000F5CF0B /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		789CE6DB1916F95000F5CF0B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		789CE6F51916FC1700F5CF0B /* AspectFitViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AspectFitViewController.h; sourceTree = "<group>"; };
+		789CE6F61916FC1700F5CF0B /* AspectFitViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AspectFitViewController.m; sourceTree = "<group>"; };
+		789CE6F81916FC3300F5CF0B /* AspectFillViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AspectFillViewController.h; sourceTree = "<group>"; };
+		789CE6F91916FC3300F5CF0B /* AspectFillViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AspectFillViewController.m; sourceTree = "<group>"; };
+		789CE6FE1917073700F5CF0B /* CacheFilterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CacheFilterViewController.h; sourceTree = "<group>"; };
+		789CE6FF1917073700F5CF0B /* CacheFilterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CacheFilterViewController.m; sourceTree = "<group>"; };
+		789CE7011917095700F5CF0B /* VisualTestImageCache.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = VisualTestImageCache.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +123,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		789CE6BF1916F95000F5CF0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				789CE6FB1916FD0700F5CF0B /* libGDRSImageCache.a in Frameworks */,
+				789CE6C41916F95000F5CF0B /* CoreGraphics.framework in Frameworks */,
+				789CE6C51916F95000F5CF0B /* UIKit.framework in Frameworks */,
+				789CE6C31916F95000F5CF0B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -88,6 +142,7 @@
 			children = (
 				7811D30B19002AFD005D7A39 /* GDRSImageCache */,
 				7811D31F19002AFD005D7A39 /* GDRSImageCacheTests */,
+				789CE6C61916F95000F5CF0B /* GADRSImageCacheVisualTests */,
 				7811D30819002AFD005D7A39 /* Frameworks */,
 				7811D30719002AFD005D7A39 /* Products */,
 			);
@@ -98,6 +153,7 @@
 			children = (
 				7811D30619002AFD005D7A39 /* libGDRSImageCache.a */,
 				7811D31619002AFD005D7A39 /* GDRSImageCacheTests.xctest */,
+				789CE6C21916F95000F5CF0B /* GADRSImageCacheVisualTests.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -108,6 +164,7 @@
 				7811D30919002AFD005D7A39 /* Foundation.framework */,
 				7811D31719002AFD005D7A39 /* XCTest.framework */,
 				7811D31A19002AFD005D7A39 /* UIKit.framework */,
+				7833E96D1916F81F00D41F29 /* CoreGraphics.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -160,6 +217,40 @@
 			path = Resources;
 			sourceTree = "<group>";
 		};
+		789CE6C61916F95000F5CF0B /* GADRSImageCacheVisualTests */ = {
+			isa = PBXGroup;
+			children = (
+				789CE6CF1916F95000F5CF0B /* AppDelegate.h */,
+				789CE6D01916F95000F5CF0B /* AppDelegate.m */,
+				789CE6D21916F95000F5CF0B /* Main.storyboard */,
+				789CE6D51916F95000F5CF0B /* MasterViewController.h */,
+				789CE6D61916F95000F5CF0B /* MasterViewController.m */,
+				789CE6D81916F95000F5CF0B /* DetailViewController.h */,
+				789CE6D91916F95000F5CF0B /* DetailViewController.m */,
+				789CE6F51916FC1700F5CF0B /* AspectFitViewController.h */,
+				789CE6F61916FC1700F5CF0B /* AspectFitViewController.m */,
+				789CE6F81916FC3300F5CF0B /* AspectFillViewController.h */,
+				789CE6F91916FC3300F5CF0B /* AspectFillViewController.m */,
+				789CE6FE1917073700F5CF0B /* CacheFilterViewController.h */,
+				789CE6FF1917073700F5CF0B /* CacheFilterViewController.m */,
+				789CE6DB1916F95000F5CF0B /* Images.xcassets */,
+				789CE7011917095700F5CF0B /* VisualTestImageCache.png */,
+				789CE6C71916F95000F5CF0B /* Supporting Files */,
+			);
+			path = GADRSImageCacheVisualTests;
+			sourceTree = "<group>";
+		};
+		789CE6C71916F95000F5CF0B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				789CE6C81916F95000F5CF0B /* GADRSImageCacheVisualTests-Info.plist */,
+				789CE6C91916F95000F5CF0B /* InfoPlist.strings */,
+				789CE6CC1916F95000F5CF0B /* main.m */,
+				789CE6CE1916F95000F5CF0B /* GADRSImageCacheVisualTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -198,6 +289,24 @@
 			productReference = 7811D31619002AFD005D7A39 /* GDRSImageCacheTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		789CE6C11916F95000F5CF0B /* GADRSImageCacheVisualTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 789CE6EF1916F95100F5CF0B /* Build configuration list for PBXNativeTarget "GADRSImageCacheVisualTests" */;
+			buildPhases = (
+				789CE6BE1916F95000F5CF0B /* Sources */,
+				789CE6BF1916F95000F5CF0B /* Frameworks */,
+				789CE6C01916F95000F5CF0B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				789CE6FD1916FD0E00F5CF0B /* PBXTargetDependency */,
+			);
+			name = GADRSImageCacheVisualTests;
+			productName = GADRSImageCacheVisualTests;
+			productReference = 789CE6C21916F95000F5CF0B /* GADRSImageCacheVisualTests.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -206,6 +315,11 @@
 			attributes = {
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "GADRS Consulting Ltd";
+				TargetAttributes = {
+					7811D31519002AFD005D7A39 = {
+						TestTargetID = 789CE6C11916F95000F5CF0B;
+					};
+				};
 			};
 			buildConfigurationList = 7811D30119002AFD005D7A39 /* Build configuration list for PBXProject "GDRSImageCache" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -213,6 +327,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = 7811D2FD19002AFD005D7A39;
 			productRefGroup = 7811D30719002AFD005D7A39 /* Products */;
@@ -221,6 +336,7 @@
 			targets = (
 				7811D30519002AFD005D7A39 /* GDRSImageCache */,
 				7811D31519002AFD005D7A39 /* GDRSImageCacheTests */,
+				789CE6C11916F95000F5CF0B /* GADRSImageCacheVisualTests */,
 			);
 		};
 /* End PBXProject section */
@@ -233,6 +349,17 @@
 				789AA48F190033F2005D34E6 /* TestPicture.png in Resources */,
 				7811D32419002AFD005D7A39 /* InfoPlist.strings in Resources */,
 				789AA49119003489005D34E6 /* DefaultTestPicture.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		789CE6C01916F95000F5CF0B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				789CE6DC1916F95000F5CF0B /* Images.xcassets in Resources */,
+				789CE6CB1916F95000F5CF0B /* InfoPlist.strings in Resources */,
+				789CE7021917095700F5CF0B /* VisualTestImageCache.png in Resources */,
+				789CE6D41916F95000F5CF0B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,6 +383,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		789CE6BE1916F95000F5CF0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				789CE7001917073700F5CF0B /* CacheFilterViewController.m in Sources */,
+				789CE6F71916FC1700F5CF0B /* AspectFitViewController.m in Sources */,
+				789CE6D11916F95000F5CF0B /* AppDelegate.m in Sources */,
+				789CE6D71916F95000F5CF0B /* MasterViewController.m in Sources */,
+				789CE6FA1916FC3300F5CF0B /* AspectFillViewController.m in Sources */,
+				789CE6CD1916F95000F5CF0B /* main.m in Sources */,
+				789CE6DA1916F95000F5CF0B /* DetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -263,6 +404,11 @@
 			isa = PBXTargetDependency;
 			target = 7811D30519002AFD005D7A39 /* GDRSImageCache */;
 			targetProxy = 7811D31C19002AFD005D7A39 /* PBXContainerItemProxy */;
+		};
+		789CE6FD1916FD0E00F5CF0B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7811D30519002AFD005D7A39 /* GDRSImageCache */;
+			targetProxy = 789CE6FC1916FD0E00F5CF0B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -273,6 +419,22 @@
 				7811D32319002AFD005D7A39 /* en */,
 			);
 			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		789CE6C91916F95000F5CF0B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				789CE6CA1916F95000F5CF0B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		789CE6D21916F95000F5CF0B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				789CE6D31916F95000F5CF0B /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -373,6 +535,7 @@
 		7811D32D19002AFD005D7A39 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/GADRSImageCacheVisualTests.app/GADRSImageCacheVisualTests";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -386,6 +549,7 @@
 				);
 				INFOPLIST_FILE = "GDRSImageCacheTests/GDRSImageCacheTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
 			name = Debug;
@@ -393,6 +557,7 @@
 		7811D32E19002AFD005D7A39 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/GADRSImageCacheVisualTests.app/GADRSImageCacheVisualTests";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -402,7 +567,52 @@
 				GCC_PREFIX_HEADER = "GDRSImageCache/GDRSImageCache-Prefix.pch";
 				INFOPLIST_FILE = "GDRSImageCacheTests/GDRSImageCacheTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+		789CE6F01916F95100F5CF0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GADRSImageCacheVisualTests/GADRSImageCacheVisualTests-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "GADRSImageCacheVisualTests/GADRSImageCacheVisualTests-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		789CE6F11916F95100F5CF0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GADRSImageCacheVisualTests/GADRSImageCacheVisualTests-Prefix.pch";
+				INFOPLIST_FILE = "GADRSImageCacheVisualTests/GADRSImageCacheVisualTests-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
 		};
@@ -432,6 +642,15 @@
 			buildConfigurations = (
 				7811D32D19002AFD005D7A39 /* Debug */,
 				7811D32E19002AFD005D7A39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		789CE6EF1916F95100F5CF0B /* Build configuration list for PBXNativeTarget "GADRSImageCacheVisualTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				789CE6F01916F95100F5CF0B /* Debug */,
+				789CE6F11916F95100F5CF0B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -8,17 +8,24 @@
 
 #import "UIImage+GDRSResizing.h"
 
+
+
+typedef UIImage*(^GDRSImageCacheImageFilter)(UIImage *sourceImage);
+
+
+
 @interface GDRSImageCache : NSObject
 
 @property (nonatomic) UIImage *defaultImage;
 
-@property (nonatomic, readonly) BOOL shouldResizeImage;
-@property (nonatomic, readonly) CGSize cachedImageSize;
-@property (nonatomic, readonly) CGFloat cachedImageCornerRadius;
+@property (nonatomic, readonly, copy) GDRSImageCacheImageFilter imageFilter;
 
-- (instancetype)initWithCachedImageSize:(CGSize)cachedImageSize corenerRadius:(CGFloat)cornerRadius;
+- (instancetype)initWithCachedImageFilter:(GDRSImageCacheImageFilter)imageFilter;
 
 - (UIImage *)fetchImageWithURL:(NSURL *)imageURL completionHandler:(void (^)(UIImage *image, NSError *error))completionHandler;
 
-
 @end
+
+
+
+
