@@ -37,7 +37,7 @@
 }
 
 
-- (UIImage *)fetchImageWithURL:(NSURL *)imageURL completionHandler:(void (^)(UIImage *image, NSError *error))completionHandler
+- (UIImage *)fetchImageWithURL:(NSURL *)imageURL completionHandler:(GDRSImageCacheFetchCompletionHandler)completionHandler;
 {
     if (!imageURL) {
         return self.defaultImage;

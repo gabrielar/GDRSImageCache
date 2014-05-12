@@ -14,6 +14,10 @@ typedef UIImage*(^GDRSImageCacheImageFilter)(UIImage *sourceImage);
 
 
 
+typedef void(^GDRSImageCacheFetchCompletionHandler)(UIImage *image, NSError *error);
+
+
+
 @interface GDRSImageCache : NSObject
 
 @property (nonatomic) UIImage *defaultImage;
@@ -22,7 +26,7 @@ typedef UIImage*(^GDRSImageCacheImageFilter)(UIImage *sourceImage);
 
 - (instancetype)initWithCachedImageFilter:(GDRSImageCacheImageFilter)imageFilter;
 
-- (UIImage *)fetchImageWithURL:(NSURL *)imageURL completionHandler:(void (^)(UIImage *image, NSError *error))completionHandler;
+- (UIImage *)fetchImageWithURL:(NSURL *)imageURL completionHandler:(GDRSImageCacheFetchCompletionHandler)completionHandler;
 
 @end
 
