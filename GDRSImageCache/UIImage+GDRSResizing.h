@@ -1,6 +1,6 @@
 //
 //  UIImage+GDRSResizing.h
-//  WhosWhoApp
+//  GADRSImageCache
 //
 //  Created by Gabriel Radu on 17/04/2014.
 //  Copyright (c) 2014 Gabriel Adrian Radu. All rights reserved.
