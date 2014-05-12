@@ -16,22 +16,22 @@ typedef CGSize(^UIImageGDRSResizingScalingFactorComputation)(CGSize sizeRatio);
 
 #pragma mark Size to aspect fit
 
-- (UIImage *)gadrs_resizedImageToAspectFitSize:(CGSize)newImageSize
+- (UIImage *)gdrs_resizedImageToAspectFitSize:(CGSize)newImageSize
 {
-    return [self gadrs_resizedImageToAspectFitSize:newImageSize clippingComputation:nil];
+    return [self gdrs_resizedImageToAspectFitSize:newImageSize clippingComputation:nil];
 }
 
-- (UIImage *)gadrs_resizedImageToAspectFitSize:(CGSize)newImageSize cornerRadius:(CGFloat)cornerRadius
+- (UIImage *)gdrs_resizedImageToAspectFitSize:(CGSize)newImageSize cornerRadius:(CGFloat)cornerRadius
 {
-    return [self gadrs_resizedImageToAspectFitSize:newImageSize clippingComputation:^UIBezierPath *(CGRect newImageRect, CGRect targetRect) {
+    return [self gdrs_resizedImageToAspectFitSize:newImageSize clippingComputation:^UIBezierPath *(CGRect newImageRect, CGRect targetRect) {
         return [UIBezierPath bezierPathWithRoundedRect:targetRect cornerRadius:cornerRadius];
     }];
 }
 
-- (UIImage *)gadrs_resizedImageToAspectFitSize:(CGSize)newImageSize
+- (UIImage *)gdrs_resizedImageToAspectFitSize:(CGSize)newImageSize
                            clippingComputation:(UIImageGDRSResizingClippingPathComputation)clippingComputation
 {
-    return [self gadrs_resizedImageToSize:newImageSize scaleingComputation:^CGSize(CGSize sizeRatio) {
+    return [self gdrs_resizedImageToSize:newImageSize scaleingComputation:^CGSize(CGSize sizeRatio) {
         
         CGFloat scalingFactor = MIN(sizeRatio.width, sizeRatio.height);
         return CGSizeMake(scalingFactor, scalingFactor);
@@ -42,22 +42,22 @@ typedef CGSize(^UIImageGDRSResizingScalingFactorComputation)(CGSize sizeRatio);
 
 #pragma mark Size to aspect fill
 
-- (UIImage *)gadrs_resizedImageToAspectFillSize:(CGSize)newImageSize
+- (UIImage *)gdrs_resizedImageToAspectFillSize:(CGSize)newImageSize
 {
-    return [self gadrs_resizedImageToAspectFillSize:newImageSize clippingComputation:nil];
+    return [self gdrs_resizedImageToAspectFillSize:newImageSize clippingComputation:nil];
 }
 
-- (UIImage *)gadrs_resizedImageToAspectFillSize:(CGSize)newImageSize cornerRadius:(CGFloat)cornerRadius
+- (UIImage *)gdrs_resizedImageToAspectFillSize:(CGSize)newImageSize cornerRadius:(CGFloat)cornerRadius
 {
-    return [self gadrs_resizedImageToAspectFillSize:newImageSize clippingComputation:^UIBezierPath *(CGRect newImageRect, CGRect targetRect) {
+    return [self gdrs_resizedImageToAspectFillSize:newImageSize clippingComputation:^UIBezierPath *(CGRect newImageRect, CGRect targetRect) {
         return [UIBezierPath bezierPathWithRoundedRect:newImageRect cornerRadius:cornerRadius];
     }];
 }
 
-- (UIImage *)gadrs_resizedImageToAspectFillSize:(CGSize)newImageSize
+- (UIImage *)gdrs_resizedImageToAspectFillSize:(CGSize)newImageSize
                             clippingComputation:(UIImageGDRSResizingClippingPathComputation)clippingComputation
 {
-    return [self gadrs_resizedImageToSize:newImageSize scaleingComputation:^CGSize(CGSize sizeRatio) {
+    return [self gdrs_resizedImageToSize:newImageSize scaleingComputation:^CGSize(CGSize sizeRatio) {
         
         CGFloat scalingFactor = MAX(sizeRatio.width, sizeRatio.height);
         return CGSizeMake(scalingFactor, scalingFactor);
@@ -68,7 +68,7 @@ typedef CGSize(^UIImageGDRSResizingScalingFactorComputation)(CGSize sizeRatio);
 
 #pragma mark Size with computation blocks
 
-- (UIImage *)gadrs_resizedImageToSize:(CGSize)newImageSize
+- (UIImage *)gdrs_resizedImageToSize:(CGSize)newImageSize
                      scaleingComputation:(UIImageGDRSResizingScalingFactorComputation)scalingComputation
                      clippingComputation:(UIImageGDRSResizingClippingPathComputation)clippingComputation
 {

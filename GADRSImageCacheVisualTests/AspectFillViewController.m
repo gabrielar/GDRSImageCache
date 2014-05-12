@@ -18,8 +18,8 @@
 {
     UIImage *image = [UIImage imageNamed:@"VisualTestImage"];
     
-    self.sharpCornersImageView.image = [image gadrs_resizedImageToAspectFillSize:self.sharpCornersImageView.bounds.size];
-    self.roundCornersImageView.image = [image gadrs_resizedImageToAspectFillSize:self.roundCornersImageView.bounds.size cornerRadius:10];
+    self.sharpCornersImageView.image = [image gdrs_resizedImageToAspectFillSize:self.sharpCornersImageView.bounds.size];
+    self.roundCornersImageView.image = [image gdrs_resizedImageToAspectFillSize:self.roundCornersImageView.bounds.size cornerRadius:10];
 }
 
 @end

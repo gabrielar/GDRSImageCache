@@ -19,7 +19,7 @@
 {
     NSURL *imageUrl = [[NSBundle mainBundle] URLForResource:@"VisualTestImageCache" withExtension:@"png"];
     GDRSImageCache *cache = [[GDRSImageCache alloc] initWithCachedImageFilter:^UIImage *(UIImage *sourceImage) {
-        return [sourceImage gadrs_resizedImageToAspectFitSize:self.roundCornersImageView.bounds.size cornerRadius:10];
+        return [sourceImage gdrs_resizedImageToAspectFitSize:self.roundCornersImageView.bounds.size cornerRadius:10];
     }];
     [cache fetchImageWithURL:imageUrl completionHandler:^(UIImage *image, NSError *error) {
         self.roundCornersImageView.image = image;

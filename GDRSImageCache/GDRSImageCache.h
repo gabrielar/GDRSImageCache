@@ -41,7 +41,7 @@ typedef void(^GDRSImageCacheFetchCompletionHandler)(UIImage *image, NSError *err
  
          // create the cache
          GDRSImageCache *cache = [[GDRSImageCache alloc] initWithCachedImageFilter:^UIImage *(UIImage *sourceImage) {
-         return [sourceImage gadrs_resizedImageToAspectFitSize:anImageView.bounds.size cornerRadius:10];
+             return [sourceImage gdrs_resizedImageToAspectFitSize:anImageView.bounds.size cornerRadius:10];
          }];
  
          // set the default image, which will be returned from

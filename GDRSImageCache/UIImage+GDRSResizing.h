@@ -39,7 +39,7 @@ typedef UIBezierPath*(^UIImageGDRSResizingClippingPathComputation)(CGRect newIma
  *
  *  @return A image with the size of newImageSize
  */
-- (UIImage *)gadrs_resizedImageToAspectFitSize:(CGSize)newImageSize;
+- (UIImage *)gdrs_resizedImageToAspectFitSize:(CGSize)newImageSize;
 
 /**
  *  Returns a scaled image of the receiver which which fits the provided
@@ -54,7 +54,7 @@ typedef UIBezierPath*(^UIImageGDRSResizingClippingPathComputation)(CGRect newIma
  *
  *  @return A image with the size of newImageSize
  */
-- (UIImage *)gadrs_resizedImageToAspectFitSize:(CGSize)newImageSize cornerRadius:(CGFloat)cornerRadius;
+- (UIImage *)gdrs_resizedImageToAspectFitSize:(CGSize)newImageSize cornerRadius:(CGFloat)cornerRadius;
 
 /**
  *  Returns a scaled image of the receiver which which fits the provided
@@ -68,7 +68,7 @@ typedef UIBezierPath*(^UIImageGDRSResizingClippingPathComputation)(CGRect newIma
  *
  *  @return A image with the size of newImageSize
  */
-- (UIImage *)gadrs_resizedImageToAspectFitSize:(CGSize)newImageSize
+- (UIImage *)gdrs_resizedImageToAspectFitSize:(CGSize)newImageSize
                            clippingComputation:(UIImageGDRSResizingClippingPathComputation)clippingComputation;
 
 
@@ -84,7 +84,7 @@ typedef UIBezierPath*(^UIImageGDRSResizingClippingPathComputation)(CGRect newIma
  *
  *  @return A image with the size of newImageSize
  */
-- (UIImage *)gadrs_resizedImageToAspectFillSize:(CGSize)newImageSize;
+- (UIImage *)gdrs_resizedImageToAspectFillSize:(CGSize)newImageSize;
 
 /**
  *  Returns a scaled version of the receiver which fills the provided size
@@ -97,7 +97,7 @@ typedef UIBezierPath*(^UIImageGDRSResizingClippingPathComputation)(CGRect newIma
  *
  *  @return A image with the size of newImageSize
  */
-- (UIImage *)gadrs_resizedImageToAspectFillSize:(CGSize)newImageSize cornerRadius:(CGFloat)cornerRadius;
+- (UIImage *)gdrs_resizedImageToAspectFillSize:(CGSize)newImageSize cornerRadius:(CGFloat)cornerRadius;
 
 /**
  *  Returns a scaled version of the receiver which fills the provided size
@@ -111,7 +111,7 @@ typedef UIBezierPath*(^UIImageGDRSResizingClippingPathComputation)(CGRect newIma
  *
  *  @return A image with the size of newImageSize
  */
-- (UIImage *)gadrs_resizedImageToAspectFillSize:(CGSize)newImageSize
+- (UIImage *)gdrs_resizedImageToAspectFillSize:(CGSize)newImageSize
                             clippingComputation:(UIImageGDRSResizingClippingPathComputation)clippingComputation;
 
 @end
