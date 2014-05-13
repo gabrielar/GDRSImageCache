@@ -9,6 +9,8 @@ images obtained from the URL before caching.
 Installation
 -----------
 
+###Manual installation (as a static library)
+
 The GDRSImageCache has a static library target. Hence all that needs to be done is to copy
 the contents of the GDRSImageCache library into your project directory, and add the
 GDRSImageCache to your project. Then the test target in your project need to link to
@@ -32,6 +34,39 @@ Step by step instructions:
 1.	Go to the "Build Settings" of your project, and select the tests target.
 1.	Add ```$(BUILT_PRODUCTS_DIR)``` to the 'Header Search Path' and to the 'Library Search Path'.
 1. 	Add ```-ObjC``` to "Other Linker Flags".
+
+###Using COCOAPODS
+
+From the [COCOAPODS](http://cocoapods.org) website:
+
+> CocoaPods is the dependency manager for Objective-C projects. It has thousands of libraries and can help you scale your projects elegantly.
+
+####New to COCOAPODS:
+
+If you do not have COCOAPODS installed, follow these steps to install COCOAPODS and 
+GDRSImageCache:
+
+1.	Instal COCOAPODS as described in the "INSTALL" section of [http://cocoapods.org](http://cocoapods.org). 
+1.	Follow the instructions under the "GET STARTED" section from the same webpage 
+	([http://cocoapods.org](http://cocoapods.org)).
+1.	In the ```Podfile``` instead of the lines ```pod 'JSONKit',       '~> 1.4'``` and 
+	```pod 'Reachability',  '~> 3.0'``` write ```pod 'GDRSImageCache',	'~> 1.0'```.
+
+Your pod file should now look like this:
+
+	platform :ios, '7.0'
+	pod 'GDRSImageCache',	'~> 1.0'
+
+Of course the ios versions can be less than ```7.0```. GDRSImageCache suports ios version 
+of ```5.0``` and above.
+
+####Using COCOAPODS already:
+
+If you have already installed COCOAPODS just add following line to your ```Podfile```
+
+	pod 'GDRSImageCache',	'~> 1.0'
+
+GDRSImageCache suports ios versions of ```5.0``` and above.
 
 Usage
 -----
@@ -64,3 +99,7 @@ A typical usage of GDRSImageCache is as shown below:
 		anImageView.image = image;
 	}];
 
+To use the GDRSImageCache class by it's self you need 
+```#import <GDRSImageCache/GDRSImageCache.h>```. For the resizing methods of ```UIImage```
+(e.g. ```gdrs_resizedImageToAspectFitSize:```) you need 
+```#import <GDRSImageCache/UIImage+GDRSResizing.h>```.
