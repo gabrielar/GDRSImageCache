@@ -73,32 +73,32 @@ Usage
 
 A typical usage of GDRSImageCache is as shown below:
 
+```objective-c
+UIImageView *anImageView = [[UIImageView alloc] initWithFrame:CGRectMake(0, 0, 40, 40)];
 
-	UIImageView *anImageView = [[UIImageView alloc] initWithFrame:CGRectMake(0, 0, 40, 40)];
+// create the cache
+GDRSImageCache *cache = [[GDRSImageCache alloc] initWithCachedImageFilter:^UIImage *(UIImage *sourceImage) {
+	
+	// resize the image to the image view size and round the image corners; 
+	// this is called by the cache on a background thread
+	return [sourceImage gdrs_resizedImageToAspectFitSize:anImageView.bounds.size cornerRadius:10];
+	
+}];
 
-	// create the cache
-	GDRSImageCache *cache = [[GDRSImageCache alloc] initWithCachedImageFilter:^UIImage *(UIImage *sourceImage) {
-		
-		// resize the image to the image view size and round the image corners; 
-		// this is called by the cache on a background thread
-		return [sourceImage gdrs_resizedImageToAspectFitSize:anImageView.bounds.size cornerRadius:10];
-		
-	}];
-
-	// set the default image, which will be returned from
-	// fetchImageWithURL:completionHandler: if an image coresponding to the
-	// requested url is not cached yet.
-	cache.defaultImage = [UIImage imageNamed:<#place holder image name#>];
+// set the default image, which will be returned from
+// fetchImageWithURL:completionHandler: if an image coresponding to the
+// requested url is not cached yet.
+cache.defaultImage = [UIImage imageNamed:<#place holder image name#>];
 
 
-	NSURL *imageUrl = <#an url to a image#>;
+NSURL *imageUrl = <#an url to a image#>;
 
-	// fetch an image; the call returns imidiatly and the callback handler
-	// is called when the image is fetched over the network
-	anImageView.image = [cache fetchImageWithURL:imageUrl completionHandler:^(UIImage *image, NSError *error) {
-		anImageView.image = image;
-	}];
-
+// fetch an image; the call returns imidiatly and the callback handler
+// is called when the image is fetched over the network
+anImageView.image = [cache fetchImageWithURL:imageUrl completionHandler:^(UIImage *image, NSError *error) {
+	anImageView.image = image;
+}];
+```
 To use the GDRSImageCache class by it's self you need 
 ```#import <GDRSImageCache/GDRSImageCache.h>```. For the resizing methods of ```UIImage```
 (e.g. ```gdrs_resizedImageToAspectFitSize:```) you need 
