@@ -1,0 +1,5 @@
+language: OBJECTIVE-C
+osx_image: xcode6.4
+podfile: path/to/Podfile
+script: ./scripts/build-and-test.sh
+
