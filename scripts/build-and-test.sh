@@ -1,5 +1,7 @@
 #!/bin/bash
 
+set -ev
+
 ORIGINAL_DIR=$(pwd)
 
 cd TestProject
