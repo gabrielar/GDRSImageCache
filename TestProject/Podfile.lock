@@ -1,0 +1,14 @@
+PODS:
+  - GDRSImageCache (1.0.1)
+
+DEPENDENCIES:
+  - GDRSImageCache (from `..`)
+
+EXTERNAL SOURCES:
+  GDRSImageCache:
+    :path: ..
+
+SPEC CHECKSUMS:
+  GDRSImageCache: 8eb8800cde65818889a93284ebd65131fe76d3d3
+
+COCOAPODS: 0.38.2

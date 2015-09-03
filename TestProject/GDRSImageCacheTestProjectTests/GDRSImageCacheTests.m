@@ -8,7 +8,7 @@
 
 #import <XCTest/XCTest.h>
 
-#import "GDRSImageCache.h"
+#import <GDRSImageCache/GDRSImageCache.h>
 
 
 

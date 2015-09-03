@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "7811D30519002AFD005D7A39"
-               BuildableName = "libGDRSImageCache.a"
-               BlueprintName = "GDRSImageCache"
-               ReferencedContainer = "container:GDRSImageCache.xcodeproj">
+               BuildableName = "libGDRSImageCacheTestProject.a"
+               BlueprintName = "GDRSImageCacheTestProject"
+               ReferencedContainer = "container:GDRSImageCacheTestProject.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,22 +33,21 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "7811D31519002AFD005D7A39"
-               BuildableName = "GDRSImageCacheTests.xctest"
-               BlueprintName = "GDRSImageCacheTests"
-               ReferencedContainer = "container:GDRSImageCache.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "789CE6E01916F95000F5CF0B"
-               BuildableName = "GADRSImageCacheVisualTestsTests.xctest"
-               BlueprintName = "GADRSImageCacheVisualTestsTests"
-               ReferencedContainer = "container:GDRSImageCache.xcodeproj">
+               BuildableName = "GDRSImageCacheTestProjectTests.xctest"
+               BlueprintName = "GDRSImageCacheTestProjectTests"
+               ReferencedContainer = "container:GDRSImageCacheTestProject.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "7811D30519002AFD005D7A39"
+            BuildableName = "libGDRSImageCacheTestProject.a"
+            BlueprintName = "GDRSImageCacheTestProject"
+            ReferencedContainer = "container:GDRSImageCacheTestProject.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
    </TestAction>
    <LaunchAction
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
@@ -59,6 +58,15 @@
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
       allowLocationSimulation = "YES">
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "7811D30519002AFD005D7A39"
+            BuildableName = "libGDRSImageCacheTestProject.a"
+            BlueprintName = "GDRSImageCacheTestProject"
+            ReferencedContainer = "container:GDRSImageCacheTestProject.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -68,6 +76,15 @@
       useCustomWorkingDirectory = "NO"
       buildConfiguration = "Release"
       debugDocumentVersioning = "YES">
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "7811D30519002AFD005D7A39"
+            BuildableName = "libGDRSImageCacheTestProject.a"
+            BlueprintName = "GDRSImageCacheTestProject"
+            ReferencedContainer = "container:GDRSImageCacheTestProject.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

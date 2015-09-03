@@ -1,0 +1,11 @@
+source 'git@github.com:gabrielar/GDRSPods.git'
+
+
+target 'GDRSImageCacheTestProjectTests' do
+    pod 'GDRSImageCache', :path => '..'
+end
+
+target 'GDRSImageCacheTestProjectVisualTests' do
+    pod 'GDRSImageCache', :path => '..'
+end
+

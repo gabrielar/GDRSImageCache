@@ -7,15 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5089AF895E7CC9989628907D /* libPods-GDRSImageCacheTestProjectVisualTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C0F561C24AF77C6FEAEDB8E /* libPods-GDRSImageCacheTestProjectVisualTests.a */; };
+		5B0B7864DED0C5907548C1E7 /* libPods-GDRSImageCacheTestProjectTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 966588C0876E0AD721394EFC /* libPods-GDRSImageCacheTestProjectTests.a */; };
+		7384EC30398587DB757E1EA3 /* libPods-GDRSImageCacheTestProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 10769C1C2191F012C29A8771 /* libPods-GDRSImageCacheTestProject.a */; };
 		7811D30A19002AFD005D7A39 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7811D30919002AFD005D7A39 /* Foundation.framework */; };
 		7811D31819002AFD005D7A39 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7811D31719002AFD005D7A39 /* XCTest.framework */; };
 		7811D31919002AFD005D7A39 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7811D30919002AFD005D7A39 /* Foundation.framework */; };
 		7811D31B19002AFD005D7A39 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7811D31A19002AFD005D7A39 /* UIKit.framework */; };
-		7811D31E19002AFD005D7A39 /* libGDRSImageCache.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7811D30619002AFD005D7A39 /* libGDRSImageCache.a */; };
 		7811D32419002AFD005D7A39 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7811D32219002AFD005D7A39 /* InfoPlist.strings */; };
 		7811D32619002AFD005D7A39 /* GDRSImageCacheTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7811D32519002AFD005D7A39 /* GDRSImageCacheTests.m */; };
-		789AA48B19003185005D34E6 /* GDRSImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 789AA48819003185005D34E6 /* GDRSImageCache.m */; };
-		789AA48C19003185005D34E6 /* UIImage+GDRSResizing.m in Sources */ = {isa = PBXBuildFile; fileRef = 789AA48A19003185005D34E6 /* UIImage+GDRSResizing.m */; };
 		789AA48F190033F2005D34E6 /* TestPicture.png in Resources */ = {isa = PBXBuildFile; fileRef = 789AA48E190033F2005D34E6 /* TestPicture.png */; };
 		789AA49119003489005D34E6 /* DefaultTestPicture.png in Resources */ = {isa = PBXBuildFile; fileRef = 789AA49019003489005D34E6 /* DefaultTestPicture.png */; };
 		789CE6C31916F95000F5CF0B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7811D30919002AFD005D7A39 /* Foundation.framework */; };
@@ -30,20 +30,13 @@
 		789CE6DC1916F95000F5CF0B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 789CE6DB1916F95000F5CF0B /* Images.xcassets */; };
 		789CE6F71916FC1700F5CF0B /* AspectFitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 789CE6F61916FC1700F5CF0B /* AspectFitViewController.m */; };
 		789CE6FA1916FC3300F5CF0B /* AspectFillViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 789CE6F91916FC3300F5CF0B /* AspectFillViewController.m */; };
-		789CE6FB1916FD0700F5CF0B /* libGDRSImageCache.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7811D30619002AFD005D7A39 /* libGDRSImageCache.a */; };
 		789CE7001917073700F5CF0B /* CacheFilterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 789CE6FF1917073700F5CF0B /* CacheFilterViewController.m */; };
 		789CE7021917095700F5CF0B /* VisualTestImageCache.png in Resources */ = {isa = PBXBuildFile; fileRef = 789CE7011917095700F5CF0B /* VisualTestImageCache.png */; };
+		E3789111F5E54032BDA7BD62 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CB6E76542A30ACEBF408396 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		7811D31C19002AFD005D7A39 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 7811D2FE19002AFD005D7A39 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 7811D30519002AFD005D7A39;
-			remoteInfo = GDRSImageCache;
-		};
-		789CE6FC1916FD0E00F5CF0B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 7811D2FE19002AFD005D7A39 /* Project object */;
 			proxyType = 1;
@@ -65,23 +58,23 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		7811D30619002AFD005D7A39 /* libGDRSImageCache.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libGDRSImageCache.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		10769C1C2191F012C29A8771 /* libPods-GDRSImageCacheTestProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GDRSImageCacheTestProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		19CC866BC4601F87DDFDDE1C /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		2C0F561C24AF77C6FEAEDB8E /* libPods-GDRSImageCacheTestProjectVisualTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GDRSImageCacheTestProjectVisualTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DD00BDC5C944C20BF3BFD80 /* Pods-GDRSImageCacheTestProjectVisualTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GDRSImageCacheTestProjectVisualTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GDRSImageCacheTestProjectVisualTests/Pods-GDRSImageCacheTestProjectVisualTests.release.xcconfig"; sourceTree = "<group>"; };
+		7811D30619002AFD005D7A39 /* libGDRSImageCacheTestProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libGDRSImageCacheTestProject.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		7811D30919002AFD005D7A39 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		7811D30D19002AFD005D7A39 /* GDRSImageCache-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GDRSImageCache-Prefix.pch"; sourceTree = "<group>"; };
-		7811D31619002AFD005D7A39 /* GDRSImageCacheTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GDRSImageCacheTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7811D31619002AFD005D7A39 /* GDRSImageCacheTestProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GDRSImageCacheTestProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7811D31719002AFD005D7A39 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		7811D31A19002AFD005D7A39 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		7811D32119002AFD005D7A39 /* GDRSImageCacheTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GDRSImageCacheTests-Info.plist"; sourceTree = "<group>"; };
+		7811D32119002AFD005D7A39 /* GDRSImageCacheTestProjectTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GDRSImageCacheTestProjectTests-Info.plist"; sourceTree = "<group>"; };
 		7811D32319002AFD005D7A39 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7811D32519002AFD005D7A39 /* GDRSImageCacheTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GDRSImageCacheTests.m; sourceTree = "<group>"; };
 		7833E96D1916F81F00D41F29 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		789AA48719003185005D34E6 /* GDRSImageCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDRSImageCache.h; sourceTree = "<group>"; };
-		789AA48819003185005D34E6 /* GDRSImageCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDRSImageCache.m; sourceTree = "<group>"; };
-		789AA48919003185005D34E6 /* UIImage+GDRSResizing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+GDRSResizing.h"; sourceTree = "<group>"; };
-		789AA48A19003185005D34E6 /* UIImage+GDRSResizing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+GDRSResizing.m"; sourceTree = "<group>"; };
+		787E87F11B988E130088C448 /* GDRSImageCacheTestProject-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GDRSImageCacheTestProject-Prefix.pch"; sourceTree = "<group>"; };
 		789AA48E190033F2005D34E6 /* TestPicture.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TestPicture.png; sourceTree = "<group>"; };
 		789AA49019003489005D34E6 /* DefaultTestPicture.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DefaultTestPicture.png; sourceTree = "<group>"; };
-		789CE6C21916F95000F5CF0B /* GADRSImageCacheVisualTests.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GADRSImageCacheVisualTests.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		789CE6C21916F95000F5CF0B /* GDRSImageCacheTestProjectVisualTests.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GDRSImageCacheTestProjectVisualTests.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		789CE6C81916F95000F5CF0B /* GADRSImageCacheVisualTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GADRSImageCacheVisualTests-Info.plist"; sourceTree = "<group>"; };
 		789CE6CA1916F95000F5CF0B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		789CE6CC1916F95000F5CF0B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -101,6 +94,14 @@
 		789CE6FE1917073700F5CF0B /* CacheFilterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CacheFilterViewController.h; sourceTree = "<group>"; };
 		789CE6FF1917073700F5CF0B /* CacheFilterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CacheFilterViewController.m; sourceTree = "<group>"; };
 		789CE7011917095700F5CF0B /* VisualTestImageCache.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = VisualTestImageCache.png; sourceTree = "<group>"; };
+		8CB6E76542A30ACEBF408396 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		90796A414AE8B937CB7D50AE /* Pods-GDRSImageCacheTestProjectVisualTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GDRSImageCacheTestProjectVisualTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GDRSImageCacheTestProjectVisualTests/Pods-GDRSImageCacheTestProjectVisualTests.debug.xcconfig"; sourceTree = "<group>"; };
+		966588C0876E0AD721394EFC /* libPods-GDRSImageCacheTestProjectTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GDRSImageCacheTestProjectTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0744D184F2B846F20C55800 /* Pods-GDRSImageCacheTestProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GDRSImageCacheTestProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-GDRSImageCacheTestProject/Pods-GDRSImageCacheTestProject.release.xcconfig"; sourceTree = "<group>"; };
+		CC10EBE6793D8C618E628699 /* Pods-GDRSImageCacheTestProjectTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GDRSImageCacheTestProjectTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GDRSImageCacheTestProjectTests/Pods-GDRSImageCacheTestProjectTests.debug.xcconfig"; sourceTree = "<group>"; };
+		CE08844DB0C237666A49B325 /* Pods-GDRSImageCacheTestProjectTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GDRSImageCacheTestProjectTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GDRSImageCacheTestProjectTests/Pods-GDRSImageCacheTestProjectTests.release.xcconfig"; sourceTree = "<group>"; };
+		D808ADD1061443B720EE28B8 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		F5E2B9F87D1BEC212D0506A9 /* Pods-GDRSImageCacheTestProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GDRSImageCacheTestProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GDRSImageCacheTestProject/Pods-GDRSImageCacheTestProject.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +110,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				7811D30A19002AFD005D7A39 /* Foundation.framework in Frameworks */,
+				E3789111F5E54032BDA7BD62 /* libPods.a in Frameworks */,
+				7384EC30398587DB757E1EA3 /* libPods-GDRSImageCacheTestProject.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -116,10 +119,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7811D31E19002AFD005D7A39 /* libGDRSImageCache.a in Frameworks */,
 				7811D31819002AFD005D7A39 /* XCTest.framework in Frameworks */,
 				7811D31B19002AFD005D7A39 /* UIKit.framework in Frameworks */,
 				7811D31919002AFD005D7A39 /* Foundation.framework in Frameworks */,
+				5B0B7864DED0C5907548C1E7 /* libPods-GDRSImageCacheTestProjectTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -127,10 +130,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				789CE6FB1916FD0700F5CF0B /* libGDRSImageCache.a in Frameworks */,
 				789CE6C41916F95000F5CF0B /* CoreGraphics.framework in Frameworks */,
 				789CE6C51916F95000F5CF0B /* UIKit.framework in Frameworks */,
 				789CE6C31916F95000F5CF0B /* Foundation.framework in Frameworks */,
+				5089AF895E7CC9989628907D /* libPods-GDRSImageCacheTestProjectVisualTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,20 +143,21 @@
 		7811D2FD19002AFD005D7A39 = {
 			isa = PBXGroup;
 			children = (
-				7811D30B19002AFD005D7A39 /* GDRSImageCache */,
-				7811D31F19002AFD005D7A39 /* GDRSImageCacheTests */,
-				789CE6C61916F95000F5CF0B /* GADRSImageCacheVisualTests */,
+				787E87F01B988D890088C448 /* GDRSImageCacheTestProject */,
+				7811D31F19002AFD005D7A39 /* GDRSImageCacheTestProjectTests */,
+				789CE6C61916F95000F5CF0B /* GDRSImageCacheTestProjectVisualTests */,
 				7811D30819002AFD005D7A39 /* Frameworks */,
 				7811D30719002AFD005D7A39 /* Products */,
+				C8B212E56D660054755B8011 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
 		7811D30719002AFD005D7A39 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7811D30619002AFD005D7A39 /* libGDRSImageCache.a */,
-				7811D31619002AFD005D7A39 /* GDRSImageCacheTests.xctest */,
-				789CE6C21916F95000F5CF0B /* GADRSImageCacheVisualTests.app */,
+				7811D30619002AFD005D7A39 /* libGDRSImageCacheTestProject.a */,
+				7811D31619002AFD005D7A39 /* GDRSImageCacheTestProjectTests.xctest */,
+				789CE6C21916F95000F5CF0B /* GDRSImageCacheTestProjectVisualTests.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -165,47 +169,39 @@
 				7811D31719002AFD005D7A39 /* XCTest.framework */,
 				7811D31A19002AFD005D7A39 /* UIKit.framework */,
 				7833E96D1916F81F00D41F29 /* CoreGraphics.framework */,
+				8CB6E76542A30ACEBF408396 /* libPods.a */,
+				2C0F561C24AF77C6FEAEDB8E /* libPods-GDRSImageCacheTestProjectVisualTests.a */,
+				10769C1C2191F012C29A8771 /* libPods-GDRSImageCacheTestProject.a */,
+				966588C0876E0AD721394EFC /* libPods-GDRSImageCacheTestProjectTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		7811D30B19002AFD005D7A39 /* GDRSImageCache */ = {
+		7811D31F19002AFD005D7A39 /* GDRSImageCacheTestProjectTests */ = {
 			isa = PBXGroup;
 			children = (
-				789AA48719003185005D34E6 /* GDRSImageCache.h */,
-				789AA48819003185005D34E6 /* GDRSImageCache.m */,
-				789AA48919003185005D34E6 /* UIImage+GDRSResizing.h */,
-				789AA48A19003185005D34E6 /* UIImage+GDRSResizing.m */,
-				7811D30C19002AFD005D7A39 /* Supporting Files */,
-			);
-			path = GDRSImageCache;
-			sourceTree = "<group>";
-		};
-		7811D30C19002AFD005D7A39 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				7811D30D19002AFD005D7A39 /* GDRSImageCache-Prefix.pch */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		7811D31F19002AFD005D7A39 /* GDRSImageCacheTests */ = {
-			isa = PBXGroup;
-			children = (
-				789AA48D190033BA005D34E6 /* Resources */,
 				7811D32519002AFD005D7A39 /* GDRSImageCacheTests.m */,
+				789AA48D190033BA005D34E6 /* Resources */,
 				7811D32019002AFD005D7A39 /* Supporting Files */,
 			);
-			path = GDRSImageCacheTests;
+			path = GDRSImageCacheTestProjectTests;
 			sourceTree = "<group>";
 		};
 		7811D32019002AFD005D7A39 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				7811D32119002AFD005D7A39 /* GDRSImageCacheTests-Info.plist */,
+				7811D32119002AFD005D7A39 /* GDRSImageCacheTestProjectTests-Info.plist */,
 				7811D32219002AFD005D7A39 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		787E87F01B988D890088C448 /* GDRSImageCacheTestProject */ = {
+			isa = PBXGroup;
+			children = (
+				787E87F11B988E130088C448 /* GDRSImageCacheTestProject-Prefix.pch */,
+			);
+			path = GDRSImageCacheTestProject;
 			sourceTree = "<group>";
 		};
 		789AA48D190033BA005D34E6 /* Resources */ = {
@@ -217,7 +213,7 @@
 			path = Resources;
 			sourceTree = "<group>";
 		};
-		789CE6C61916F95000F5CF0B /* GADRSImageCacheVisualTests */ = {
+		789CE6C61916F95000F5CF0B /* GDRSImageCacheTestProjectVisualTests */ = {
 			isa = PBXGroup;
 			children = (
 				789CE6CF1916F95000F5CF0B /* AppDelegate.h */,
@@ -237,7 +233,7 @@
 				789CE7011917095700F5CF0B /* VisualTestImageCache.png */,
 				789CE6C71916F95000F5CF0B /* Supporting Files */,
 			);
-			path = GADRSImageCacheVisualTests;
+			path = GDRSImageCacheTestProjectVisualTests;
 			sourceTree = "<group>";
 		};
 		789CE6C71916F95000F5CF0B /* Supporting Files */ = {
@@ -251,12 +247,27 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		C8B212E56D660054755B8011 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D808ADD1061443B720EE28B8 /* Pods.debug.xcconfig */,
+				19CC866BC4601F87DDFDDE1C /* Pods.release.xcconfig */,
+				90796A414AE8B937CB7D50AE /* Pods-GDRSImageCacheTestProjectVisualTests.debug.xcconfig */,
+				3DD00BDC5C944C20BF3BFD80 /* Pods-GDRSImageCacheTestProjectVisualTests.release.xcconfig */,
+				F5E2B9F87D1BEC212D0506A9 /* Pods-GDRSImageCacheTestProject.debug.xcconfig */,
+				A0744D184F2B846F20C55800 /* Pods-GDRSImageCacheTestProject.release.xcconfig */,
+				CC10EBE6793D8C618E628699 /* Pods-GDRSImageCacheTestProjectTests.debug.xcconfig */,
+				CE08844DB0C237666A49B325 /* Pods-GDRSImageCacheTestProjectTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		7811D30519002AFD005D7A39 /* GDRSImageCache */ = {
+		7811D30519002AFD005D7A39 /* GDRSImageCacheTestProject */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7811D32919002AFD005D7A39 /* Build configuration list for PBXNativeTarget "GDRSImageCache" */;
+			buildConfigurationList = 7811D32919002AFD005D7A39 /* Build configuration list for PBXNativeTarget "GDRSImageCacheTestProject" */;
 			buildPhases = (
 				7811D30219002AFD005D7A39 /* Sources */,
 				7811D30319002AFD005D7A39 /* Frameworks */,
@@ -266,45 +277,48 @@
 			);
 			dependencies = (
 			);
-			name = GDRSImageCache;
+			name = GDRSImageCacheTestProject;
 			productName = GDRSImageCache;
-			productReference = 7811D30619002AFD005D7A39 /* libGDRSImageCache.a */;
+			productReference = 7811D30619002AFD005D7A39 /* libGDRSImageCacheTestProject.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		7811D31519002AFD005D7A39 /* GDRSImageCacheTests */ = {
+		7811D31519002AFD005D7A39 /* GDRSImageCacheTestProjectTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7811D32C19002AFD005D7A39 /* Build configuration list for PBXNativeTarget "GDRSImageCacheTests" */;
+			buildConfigurationList = 7811D32C19002AFD005D7A39 /* Build configuration list for PBXNativeTarget "GDRSImageCacheTestProjectTests" */;
 			buildPhases = (
+				6271FB8E02BF3AD83118C7F5 /* Check Pods Manifest.lock */,
 				7811D31219002AFD005D7A39 /* Sources */,
 				7811D31319002AFD005D7A39 /* Frameworks */,
 				7811D31419002AFD005D7A39 /* Resources */,
+				5A2AB1BD181AF85E645A75ED /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 				7811D31D19002AFD005D7A39 /* PBXTargetDependency */,
 			);
-			name = GDRSImageCacheTests;
+			name = GDRSImageCacheTestProjectTests;
 			productName = GDRSImageCacheTests;
-			productReference = 7811D31619002AFD005D7A39 /* GDRSImageCacheTests.xctest */;
+			productReference = 7811D31619002AFD005D7A39 /* GDRSImageCacheTestProjectTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		789CE6C11916F95000F5CF0B /* GADRSImageCacheVisualTests */ = {
+		789CE6C11916F95000F5CF0B /* GDRSImageCacheTestProjectVisualTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 789CE6EF1916F95100F5CF0B /* Build configuration list for PBXNativeTarget "GADRSImageCacheVisualTests" */;
+			buildConfigurationList = 789CE6EF1916F95100F5CF0B /* Build configuration list for PBXNativeTarget "GDRSImageCacheTestProjectVisualTests" */;
 			buildPhases = (
+				CEDBA000E821628424D489A0 /* Check Pods Manifest.lock */,
 				789CE6BE1916F95000F5CF0B /* Sources */,
 				789CE6BF1916F95000F5CF0B /* Frameworks */,
 				789CE6C01916F95000F5CF0B /* Resources */,
+				17B57F6171C4F6749C2FD52F /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				789CE6FD1916FD0E00F5CF0B /* PBXTargetDependency */,
 			);
-			name = GADRSImageCacheVisualTests;
+			name = GDRSImageCacheTestProjectVisualTests;
 			productName = GADRSImageCacheVisualTests;
-			productReference = 789CE6C21916F95000F5CF0B /* GADRSImageCacheVisualTests.app */;
+			productReference = 789CE6C21916F95000F5CF0B /* GDRSImageCacheTestProjectVisualTests.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -315,13 +329,8 @@
 			attributes = {
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "GADRS Consulting Ltd";
-				TargetAttributes = {
-					7811D31519002AFD005D7A39 = {
-						TestTargetID = 789CE6C11916F95000F5CF0B;
-					};
-				};
 			};
-			buildConfigurationList = 7811D30119002AFD005D7A39 /* Build configuration list for PBXProject "GDRSImageCache" */;
+			buildConfigurationList = 7811D30119002AFD005D7A39 /* Build configuration list for PBXProject "GDRSImageCacheTestProject" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -334,9 +343,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				7811D30519002AFD005D7A39 /* GDRSImageCache */,
-				7811D31519002AFD005D7A39 /* GDRSImageCacheTests */,
-				789CE6C11916F95000F5CF0B /* GADRSImageCacheVisualTests */,
+				7811D30519002AFD005D7A39 /* GDRSImageCacheTestProject */,
+				7811D31519002AFD005D7A39 /* GDRSImageCacheTestProjectTests */,
+				789CE6C11916F95000F5CF0B /* GDRSImageCacheTestProjectVisualTests */,
 			);
 		};
 /* End PBXProject section */
@@ -365,13 +374,74 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		17B57F6171C4F6749C2FD52F /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GDRSImageCacheTestProjectVisualTests/Pods-GDRSImageCacheTestProjectVisualTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5A2AB1BD181AF85E645A75ED /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GDRSImageCacheTestProjectTests/Pods-GDRSImageCacheTestProjectTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6271FB8E02BF3AD83118C7F5 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CEDBA000E821628424D489A0 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		7811D30219002AFD005D7A39 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				789AA48C19003185005D34E6 /* UIImage+GDRSResizing.m in Sources */,
-				789AA48B19003185005D34E6 /* GDRSImageCache.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -402,13 +472,8 @@
 /* Begin PBXTargetDependency section */
 		7811D31D19002AFD005D7A39 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 7811D30519002AFD005D7A39 /* GDRSImageCache */;
+			target = 7811D30519002AFD005D7A39 /* GDRSImageCacheTestProject */;
 			targetProxy = 7811D31C19002AFD005D7A39 /* PBXContainerItemProxy */;
-		};
-		789CE6FD1916FD0E00F5CF0B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 7811D30519002AFD005D7A39 /* GDRSImageCache */;
-			targetProxy = 789CE6FC1916FD0E00F5CF0B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -513,9 +578,9 @@
 			buildSettings = {
 				DSTROOT = /tmp/GDRSImageCache.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "GDRSImageCache/GDRSImageCache-Prefix.pch";
-				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "GDRSImageCacheTestProject/GDRSImageCacheTestProject-Prefix.pch";
+				OTHER_LDFLAGS = "$(inherited)";
+				PRODUCT_NAME = GDRSImageCacheTestProject;
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
@@ -525,55 +590,62 @@
 			buildSettings = {
 				DSTROOT = /tmp/GDRSImageCache.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "GDRSImageCache/GDRSImageCache-Prefix.pch";
-				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "GDRSImageCacheTestProject/GDRSImageCacheTestProject-Prefix.pch";
+				OTHER_LDFLAGS = "$(inherited)";
+				PRODUCT_NAME = GDRSImageCacheTestProject;
 				SKIP_INSTALL = YES;
 			};
 			name = Release;
 		};
 		7811D32D19002AFD005D7A39 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC10EBE6793D8C618E628699 /* Pods-GDRSImageCacheTestProjectTests.debug.xcconfig */;
 			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/GADRSImageCacheVisualTests.app/GADRSImageCacheVisualTests";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "GDRSImageCache/GDRSImageCache-Prefix.pch";
+				GCC_PREFIX_HEADER = "GDRSImageCacheTestProject/GDRSImageCacheTestProject-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "GDRSImageCacheTests/GDRSImageCacheTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
+				INFOPLIST_FILE = "GDRSImageCacheTestProjectTests/GDRSImageCacheTestProjectTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+				);
+				PRODUCT_NAME = GDRSImageCacheTestProjectTests;
 				WRAPPER_EXTENSION = xctest;
 			};
 			name = Debug;
 		};
 		7811D32E19002AFD005D7A39 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE08844DB0C237666A49B325 /* Pods-GDRSImageCacheTestProjectTests.release.xcconfig */;
 			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/GADRSImageCacheVisualTests.app/GADRSImageCacheVisualTests";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "GDRSImageCache/GDRSImageCache-Prefix.pch";
-				INFOPLIST_FILE = "GDRSImageCacheTests/GDRSImageCacheTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
+				GCC_PREFIX_HEADER = "GDRSImageCacheTestProject/GDRSImageCacheTestProject-Prefix.pch";
+				INFOPLIST_FILE = "GDRSImageCacheTestProjectTests/GDRSImageCacheTestProjectTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+				);
+				PRODUCT_NAME = GDRSImageCacheTestProjectTests;
 				WRAPPER_EXTENSION = xctest;
 			};
 			name = Release;
 		};
 		789CE6F01916F95100F5CF0B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90796A414AE8B937CB7D50AE /* Pods-GDRSImageCacheTestProjectVisualTests.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -583,14 +655,14 @@
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "GADRSImageCacheVisualTests/GADRSImageCacheVisualTests-Prefix.pch";
+				GCC_PREFIX_HEADER = "GDRSImageCacheTestProjectVisualTests/GDRSImageCacheTestProjectVisualTests-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "GADRSImageCacheVisualTests/GADRSImageCacheVisualTests-Info.plist";
+				INFOPLIST_FILE = "GDRSImageCacheTestProjectVisualTests/GDRSImageCacheTestProjectVisualTests-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				OTHER_LDFLAGS = "-ObjC";
+				OTHER_LDFLAGS = "$(inherited)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -598,6 +670,7 @@
 		};
 		789CE6F11916F95100F5CF0B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3DD00BDC5C944C20BF3BFD80 /* Pods-GDRSImageCacheTestProjectVisualTests.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -607,10 +680,10 @@
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "GADRSImageCacheVisualTests/GADRSImageCacheVisualTests-Prefix.pch";
-				INFOPLIST_FILE = "GADRSImageCacheVisualTests/GADRSImageCacheVisualTests-Info.plist";
+				GCC_PREFIX_HEADER = "GDRSImageCacheTestProjectVisualTests/GDRSImageCacheTestProjectVisualTests-Prefix.pch";
+				INFOPLIST_FILE = "GDRSImageCacheTestProjectVisualTests/GDRSImageCacheTestProjectVisualTests-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				OTHER_LDFLAGS = "-ObjC";
+				OTHER_LDFLAGS = "$(inherited)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -619,7 +692,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		7811D30119002AFD005D7A39 /* Build configuration list for PBXProject "GDRSImageCache" */ = {
+		7811D30119002AFD005D7A39 /* Build configuration list for PBXProject "GDRSImageCacheTestProject" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7811D32719002AFD005D7A39 /* Debug */,
@@ -628,7 +701,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7811D32919002AFD005D7A39 /* Build configuration list for PBXNativeTarget "GDRSImageCache" */ = {
+		7811D32919002AFD005D7A39 /* Build configuration list for PBXNativeTarget "GDRSImageCacheTestProject" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7811D32A19002AFD005D7A39 /* Debug */,
@@ -637,7 +710,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7811D32C19002AFD005D7A39 /* Build configuration list for PBXNativeTarget "GDRSImageCacheTests" */ = {
+		7811D32C19002AFD005D7A39 /* Build configuration list for PBXNativeTarget "GDRSImageCacheTestProjectTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7811D32D19002AFD005D7A39 /* Debug */,
@@ -646,7 +719,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		789CE6EF1916F95100F5CF0B /* Build configuration list for PBXNativeTarget "GADRSImageCacheVisualTests" */ = {
+		789CE6EF1916F95100F5CF0B /* Build configuration list for PBXNativeTarget "GDRSImageCacheTestProjectVisualTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				789CE6F01916F95100F5CF0B /* Debug */,

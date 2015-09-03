@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "UIImage+GDRSResizing.h"
+#import <GDRSImageCache/UIImage+GDRSResizing.h>
 
 @interface DetailViewController : UIViewController
 @property (nonatomic, weak) IBOutlet UIImageView *sharpCornersImageView;
