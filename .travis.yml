@@ -1,4 +1,4 @@
-language: OBJECTIVE-C
+language: objective-c
 osx_image: xcode6.4
 sudo: required
 podfile: TestProject/Podfile
