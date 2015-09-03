@@ -9,32 +9,6 @@ images obtained from the URL before caching.
 Installation
 -----------
 
-###Manual installation (as a static library)
-
-The GDRSImageCache has a static library target. Hence all that needs to be done is to copy
-the contents of the GDRSImageCache library into your project directory, and add the
-GDRSImageCache to your project. Then the test target in your project need to link to
-the GDRSImageCache lib and to be made dependent on the lib target from the GDRSImageCache
-project. Also make sure that the header and library search paths of your project
-include ```$(BUILT_PRODUCTS_DIR)```, and that 'Other Linker Flags' contains ```-ObjC```.
-
-Step by step instructions:
-
-1.	Copy the contents of the GDRSImageCache repository into your project directory, it
-	does not matter where exactly. 
-1.	Open your project in XCode. 
-1.	In XCode (with your project open) select the group which you wish to contain
-	the GDRSImageCache project, and bring up it's context menu. 
-1.	In the context menu select "Add files to << your project name >>..." 
-1.	Select the GDRSImageCache project file (ie. GDRSImageCache.xcodeproj), and click the 
-	"Add" button. 
-1.	Go to the "Build Phases" of your project, and select the tests target.
-1.	Add the GDRSImageCache library to the "Target Dependencies".
-1.	Add the ```libGDRSImageCache.a``` to "Link Binary With Libraries"
-1.	Go to the "Build Settings" of your project, and select the tests target.
-1.	Add ```$(BUILT_PRODUCTS_DIR)``` to the 'Header Search Path' and to the 'Library Search Path'.
-1. 	Add ```-ObjC``` to "Other Linker Flags".
-
 ###Using COCOAPODS
 
 From the [COCOAPODS](http://cocoapods.org) website:
@@ -67,6 +41,18 @@ If you have already installed COCOAPODS just add following line to your ```Podfi
 	pod 'GDRSImageCache',	'~> 1.0'
 
 GDRSImageCache suports ios versions of ```5.0``` and above.
+
+###Manual installation
+
+Drag and drop following four files from the ```GDRSImageCache``` directory into XCode in the Project Navigator:
+
+* GDRSImageCache.h
+* GDRSImageCache.m
+* UIImage+GDRSResizing.h
+* UIImage+GDRSResizing.m
+
+Also make sure that they are added to your target.
+
 
 Usage
 -----
