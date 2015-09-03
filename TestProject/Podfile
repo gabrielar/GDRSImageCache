@@ -1,4 +1,4 @@
-source 'git@github.com:gabrielar/GDRSPods.git'
+# source 'git@github.com:gabrielar/GDRSPods.git'
 
 
 target 'GDRSImageCacheTestProjectTests' do
