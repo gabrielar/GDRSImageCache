@@ -3,9 +3,11 @@
 
 target 'GDRSImageCacheTestProjectTests' do
     pod 'GDRSImageCache', :path => '..'
+    # pod 'GDRSImageCache', '~> 1.0.1'
 end
 
 target 'GDRSImageCacheTestProjectVisualTests' do
     pod 'GDRSImageCache', :path => '..'
+    # pod 'GDRSImageCache', '~> 1.0.1'
 end
 
