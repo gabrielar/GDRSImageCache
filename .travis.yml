@@ -3,3 +3,7 @@ osx_image: xcode6.4
 podfile: TestProject/Podfile
 script: ./scripts/build-and-test.sh
 
+branches:
+  only:
+    - master
+    - /^pull\/.*$/
