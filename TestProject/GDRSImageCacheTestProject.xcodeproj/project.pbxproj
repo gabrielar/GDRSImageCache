@@ -334,8 +334,7 @@
 		7811D2FE19002AFD005D7A39 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0710;
-				LastUpgradeCheck = 0510;
+				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = "GADRS Consulting Ltd";
 			};
 			buildConfigurationList = 7811D30119002AFD005D7A39 /* Build configuration list for PBXProject "GDRSImageCacheTestProject" */;
@@ -531,6 +530,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -612,7 +612,6 @@
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 				);
@@ -628,6 +627,7 @@
 					"$(inherited)",
 					"-ObjC",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gadrsconsulting.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = GDRSImageCacheTestProjectTests;
 				SWIFT_OBJC_BRIDGING_HEADER = "GDRSImageCacheTestProjectTests/GDRSImageCacheTestProjectTests-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -641,7 +641,6 @@
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 				);
@@ -653,6 +652,7 @@
 					"$(inherited)",
 					"-ObjC",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gadrsconsulting.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = GDRSImageCacheTestProjectTests;
 				SWIFT_OBJC_BRIDGING_HEADER = "GDRSImageCacheTestProjectTests/GDRSImageCacheTestProjectTests-Bridging-Header.h";
 				WRAPPER_EXTENSION = xctest;
@@ -679,6 +679,7 @@
 				INFOPLIST_FILE = "GDRSImageCacheTestProjectVisualTests/GDRSImageCacheTestProjectVisualTests-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				OTHER_LDFLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gadrsconsulting.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -700,6 +701,7 @@
 				INFOPLIST_FILE = "GDRSImageCacheTestProjectVisualTests/GDRSImageCacheTestProjectVisualTests-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				OTHER_LDFLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gadrsconsulting.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
