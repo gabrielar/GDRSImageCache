@@ -1,10 +1,14 @@
 GDRSImageCache
 ==============
 
-GDRSImageCache is a minimalistic caching and image resizing library for iOS. Given an
+GDRSImageCache is a minimalistic **caching and image resizing** library for iOS. Given an
 URL it retrieves the image on a background thread and it caches it in memory. 
+
 GDRSImageCache can be provided with a filtering block which can be used to resize the 
-images obtained from the URL before caching. 
+images obtained from the URL before caching. This **unique feature** provides fast image 
+rendering because the resizing (and masking) of the image is done on a background thread 
+only once per image before caching. Thus this library is particularly well suited to be 
+used with table and collection views, as it provides for smooth scrolling.
 
 Installation
 -----------
