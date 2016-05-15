@@ -54,7 +54,7 @@ GDRSImageCache suports ios versions of ```5.0``` and above.
 
 ###Manual installation
 
-Drag and drop following four files from the ```GDRSImageCache``` directory into XCode in the Project Navigator:
+Drag and drop following four files from the ```GDRSImageCache``` directory into Xcode in the Project Navigator:
 
 * GDRSImageCache.h
 * GDRSImageCache.m
