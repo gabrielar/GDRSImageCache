@@ -1,7 +1,7 @@
 GDRSImageCache
 ==============
 
- [![Cocoa Pod Version](https://cocoapod-badges.herokuapp.com/v/GDRSImageCache/badge.svg)](https://cocoapods.org/pods/GDRSImageCache)
+ [![Cocoa Pod Version](https://cocoapod-badges.herokuapp.com/v/GDRSImageCache/badge.svg)](https://cocoapods.org/pods/GDRSImageCache) [![Cocoa Pod Version](https://cocoapod-badges.herokuapp.com/l/GDRSImageCache/badge.svg)](https://raw.githubusercontent.com/gabrielar/GDRSImageCache/master/License.txt)
 
 What it does
 ------------
