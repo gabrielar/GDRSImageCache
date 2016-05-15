@@ -1,6 +1,12 @@
 GDRSImageCache
 ==============
 
+[![Build Status](https://api.travis-ci.org/gabrielar/GDRSImageCache.svg)](https://travis-ci.org/gabrielar/GDRSImageCache) 
+ [![Cocoa Pod Version](https://cocoapod-badges.herokuapp.com/v/GDRSImageCache/badge.svg)](https://cocoapods.org/pods/GDRSImageCache)  [![Cocoa Pod Version](https://cocoapod-badges.herokuapp.com/l/GDRSImageCache/badge.svg)](https://raw.githubusercontent.com/gabrielar/GDRSImageCache/master/License.txt)
+
+What it does
+------------
+
 GDRSImageCache is a minimalistic **caching and image resizing** library for iOS. Given an
 URL it retrieves the image on a background thread and it caches it in memory. 
 
