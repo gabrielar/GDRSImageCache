@@ -1,6 +1,8 @@
 GDRSImageCache
 ==============
 
+[![Join the chat at https://gitter.im/gabrielar/GDRSImageCache](https://badges.gitter.im/gabrielar/GDRSImageCache.svg)](https://gitter.im/gabrielar/GDRSImageCache?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 [![Build Status](https://api.travis-ci.org/gabrielar/GDRSImageCache.svg)](https://travis-ci.org/gabrielar/GDRSImageCache) 
  [![Cocoa Pod Version](https://cocoapod-badges.herokuapp.com/v/GDRSImageCache/badge.svg)](https://cocoapods.org/pods/GDRSImageCache)  [![Cocoa Pod Version](https://cocoapod-badges.herokuapp.com/l/GDRSImageCache/badge.svg)](https://raw.githubusercontent.com/gabrielar/GDRSImageCache/master/License.txt)
 
