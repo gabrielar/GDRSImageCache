@@ -19,13 +19,13 @@ used with table and collection views, as it provides smooth scrolling.
 Installation
 -----------
 
-###Using COCOAPODS
+### Using COCOAPODS
 
 From the [COCOAPODS](http://cocoapods.org) website:
 
 > CocoaPods is the dependency manager for Objective-C projects. It has thousands of libraries and can help you scale your projects elegantly.
 
-####New to COCOAPODS:
+#### New to COCOAPODS:
 
 If you do not have COCOAPODS installed, follow these steps to install COCOAPODS and 
 GDRSImageCache:
@@ -44,7 +44,7 @@ Your pod file should now look like this:
 Of course the ios versions can be less than ```7.0```. GDRSImageCache suports ios version 
 of ```5.0``` and above.
 
-####Using COCOAPODS already:
+#### Using COCOAPODS already:
 
 If you have already installed COCOAPODS just add following line to your ```Podfile```
 
@@ -52,7 +52,7 @@ If you have already installed COCOAPODS just add following line to your ```Podfi
 
 GDRSImageCache suports ios versions of ```5.0``` and above.
 
-###Manual installation
+### Manual installation
 
 Drag and drop following four files from the ```GDRSImageCache``` directory into Xcode in the Project Navigator:
 
